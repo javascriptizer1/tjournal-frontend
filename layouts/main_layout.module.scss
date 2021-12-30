@@ -1,0 +1,39 @@
+.main_layout {
+  display: flex;
+  background-color: #f2f2f2;
+  min-height: calc(100vh - 60px);
+  position: relative;
+}
+
+.layout_left {
+  max-width: 240px;
+  max-height: 100%;
+  width: 100%;
+}
+
+.content {
+  //padding: 20px 0;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.layout_right {
+  max-height: 100%;
+  max-width: 300px;
+  width: 100%;
+}
+
+.minimize {
+  max-height: 100%;
+  max-width: 80px;
+  width: 100%;
+}
+
+
+.rotate {
+  white-space: nowrap;
+  margin-top: 120px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,75 @@
+.create_area {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 680px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1 0 auto;
+  margin-bottom: 10px;
+}
+
+.title {
+  width: 100%;
+  font-size: 36px;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  margin-bottom: 15px;
+  ::placeholder {
+    color: lightgray;
+  }
+}
+
+.body {
+  width: auto;
+  max-height: 100%;
+  //resize: none;
+  font-size: 18px;
+  background-color: transparent;
+  line-height: 1.5;
+  border: none;
+}
+
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+
+  span {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+.author:hover, .tags:hover {
+  color: #0d7bcd;
+}
+
+.publish_btn {
+  flex: 0 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #0d7bcd;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:hover {
+    background-color: #1c89ff;
+  }
+}

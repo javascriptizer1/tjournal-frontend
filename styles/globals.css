@@ -1,9 +1,8 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import "~antd/dist/antd.css";
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -13,4 +12,37 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.posts {
+  padding: 20px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.post_detail {
+
+}
+
+.comments_area {
+  margin-top: 45px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
 }

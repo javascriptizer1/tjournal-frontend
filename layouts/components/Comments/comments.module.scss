@@ -1,0 +1,47 @@
+.comments {
+  margin-left: 15px;
+  max-width: 288px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.comment {
+  cursor: pointer;
+  padding: 7px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+
+  span {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+.author:hover, .tags:hover {
+  color: #0d7bcd;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.tags {
+  font-weight: bold;
+  font-size: 14px;
+}

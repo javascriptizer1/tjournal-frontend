@@ -1,0 +1,118 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #fff4e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.left, .right {
+  gap: 20px;
+}
+
+.search_input {
+  max-width: 320px;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 8px;
+  display: flex;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .2s;
+  box-sizing: border-box;
+
+  &:hover {
+    border-color: #e6a140;
+    box-shadow: 0 0 0 3px rgba(229,160,64,0.12);
+    background-color: #fafafa;
+  }
+
+  .search_logo {
+    color: #615d56;
+    font-size: 18px;
+  }
+  input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    color: #615d56;
+  }
+}
+
+.logo {
+  cursor: pointer;
+  display: block;
+  & svg {
+    width: 40px;
+    height: 50px;
+  }
+}
+
+.new_post {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  padding: 6.5px 12px;
+  border: 1px solid transparent;
+  transition: .1s;
+  color: #000;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.05), 0 -1px 0 rgba(0,0,0,0.05), -1px 0 0 rgba(0,0,0,0.1), 1px 0 0 rgba(0,0,0,0.1);
+
+  &:hover {
+    box-shadow: 0 0 0 3px rgba(229,160,64,0.12);
+  }
+}
+
+.login_user_logo {
+  color: inherit;
+  font-size: 24px;
+}
+
+.login_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: .1s;
+  margin-right: 40px;
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    color: #e5a040;
+  }
+}
+
+.toggle {
+  cursor: pointer;
+   & svg {
+     color: black;
+     width: 20px;
+     height: 20px;
+   }
+}

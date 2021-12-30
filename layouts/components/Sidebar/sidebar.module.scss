@@ -1,0 +1,52 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: inherit;
+  gap: 2px;
+  max-width: 270px;
+  width: 100%;
+  padding: 10px;
+}
+
+.sidebar__element, .active {
+  width: 100%;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .1s;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 13px;
+  }
+
+  span {
+    display: block;
+    color: black;
+    font-size: 18px;
+  }
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.active {
+  background-color: #fff;
+
+  i {
+    color: #e5a040;
+  }
+}
+
+
+.icon {
+  color: #595959;
+  font-size: 20px;
+  transition: .2s;
+}
+
